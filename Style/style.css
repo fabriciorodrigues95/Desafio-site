@@ -19,6 +19,11 @@
     --fonte-destaque:'Bebas Neue', cursive;
     --fonte-Android: 'Android', cursive;
 }
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
     background-color:var(--cor3);
     font-family: var(--fonte-Android);
@@ -47,13 +52,13 @@ header > p{
     max-width: 500px;
     margin: auto;
     text-shadow: 2px 2px 0px black;
-    margin-bottom: 25px; ;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
 
 }
-* {
-    margin: 0px;
-    padding: 0px;
-}
+
 nav{
     background-color: var(--cor5);
     padding: 10px;
@@ -76,8 +81,8 @@ nav a:hover{
 
 main {
     min-width: 300px;
-    max-width: 1000px;
-    margin: auto;
+    max-width: 800px;
+    margin: 0 auto;
     margin-bottom: 30px;
     background-color: whitesmoke;
     padding: 20px;
@@ -101,7 +106,7 @@ main a:hover{
 }
 main img{
 
-    width: 100;
+    width: 100%;
 }
 
 main img.pequena{
